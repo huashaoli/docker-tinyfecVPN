@@ -10,7 +10,7 @@ RUN set -ex; \
 		git \
 		linux-headers \
 	; \
-	git clone --recursive https://github.com/wangyu-/tinyfecVPN.git; \
+	git clone --recursive https://github.com/huashaoli/tinyfecVPN.git; \
 	cd tinyfecVPN; \
 	cat /usr/src/Makefile >> makefile; \
 	make -j$(nproc) docker; \
